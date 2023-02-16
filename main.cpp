@@ -6,7 +6,7 @@ int main()
     bigint num = 2;
     while (true)
     {
-        if (_big_isprime(num))
+        if (bigint::_big_isprime(num))
         {
             std::cout << num << std::endl;
         }
